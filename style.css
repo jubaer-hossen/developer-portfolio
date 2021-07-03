@@ -6,10 +6,13 @@ body {
 
 h1 {
     font-size: 50px;
+    padding-left: 80px;
+    
 }
 
 h2{
-    font-size: 40px;
+    font-size: 35px;
+    text-align: center;
 }
 .name-color {
     color: orange;
@@ -63,4 +66,15 @@ h2{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+}
+#exp-f{
+    border-left: 10px solid ;
+    border-image: linear-gradient(rgb(255, 196, 0), rgb(255, 61, 27)  );
+    border-image-slice: 1;
+}
+
+#exp-s{
+    border-left: 10px solid ;
+    border-image: linear-gradient(cyan, blue );
+    border-image-slice: 1;
 }
